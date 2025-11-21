@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export GEMINI_API_KEY=\"AIzaSyAu70IDfRjglbXUTcCmGPm8dx9R3I0YXP4\")",
+      "Bash(python3:*)",
+      "Bash(pkill:*)",
+      "Bash(tee:*)",
+      "Bash(rm:*)",
+      "Bash(find:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(PYTHONPATH=/data/erik/src python3:*)",
+      "Bash(PYTHONPATH=/data/erik/src REDSHIFT_USER=moonshoot_dev REDSHIFT_PASSWORD='n!ua8y5Z' GEMINI_API_KEY=AIzaSyAu70IDfRjglbXUTcCmGPm8dx9R3I0YXP4 python3 -m pytest tests/unit/test_database.py -v --tb=short)",
+      "Bash(pip install:*)",
+      "Bash(PYTHONPATH=src REDSHIFT_USER=moonshoot_dev REDSHIFT_PASSWORD='n!ua8y5Z' python3 -m pytest:*)",
+      "Bash(PYTHONPATH=src python3 -m pytest:*)",
+      "Bash(tree:*)",
+      "Bash(python -m py_compile:*)",
+      "Bash(python:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(PYTHONPATH=src REDSHIFT_USER=moonshoot_dev REDSHIFT_PASSWORD='n!ua8y5Z' python3:*)",
+      "Bash(PYTHONPATH=src python3:*)",
+      "Bash(cat:*)",
+      "Bash(PYTHONPATH=src REDSHIFT_USER=moonshoot_dev REDSHIFT_PASSWORD='n!ua8y5Z' GEMINI_API_KEY='AIzaSyAu70IDfRjglbXUTcCmGPm8dx9R3I0YXP4' python3:*)",
+      "Bash(PYTHONPATH=src REDSHIFT_USER=moonshoot_dev REDSHIFT_PASSWORD='n!ua8y5Z' pytest:*)",
+      "Bash(docker --version:*)",
+      "Bash(docker-compose:*)",
+      "Bash(docker info:*)",
+      "Bash(docker compose:*)",
+      "Bash(sudo docker build:*)",
+      "Bash(docker build:*)",
+      "Bash(echo:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

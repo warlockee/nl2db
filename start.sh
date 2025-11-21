@@ -138,7 +138,7 @@ start_docker() {
     else
         echo -e "${YELLOW}Docker image not found. Building...${NC}"
         echo "This may take 2-5 minutes..."
-        docker build -t warlockee/redshift-agent -f docker/Dockerfile . || {
+        docker build -t redshift-nl-agent:latest -f docker/Dockerfile . || {
             echo -e "${RED}✗${NC} Failed to build Docker image"
             exit 1
         }

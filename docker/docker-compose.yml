@@ -5,7 +5,7 @@ services:
     build:
       context: ..
       dockerfile: docker/Dockerfile
-    image: warlockee/redshift-agent
+    image: redshift-nl-agent:latest
     container_name: redshift-nl-agent
     env_file:
       - ../.env

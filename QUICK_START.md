@@ -73,7 +73,7 @@ python -m redshift_nl_agent
 
 ### Manual Docker method:
 ```bash
-docker build -t warlockee/redshift-agent -f docker/Dockerfile .
+docker build -t redshift-nl-agent:latest -f docker/Dockerfile .
 docker run -it --env-file .env redshift-nl-agent:latest
 ```
 

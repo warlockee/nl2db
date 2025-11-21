@@ -176,7 +176,7 @@ pytest tests/unit/ -v
 
 2. Show Docker deployment:
 ```bash
-docker build -t warlockee/redshift-agent -f docker/Dockerfile .
+docker build -t redshift-nl-agent:latest -f docker/Dockerfile .
 ```
 
 ---

@@ -128,7 +128,7 @@ redshift-nl-agent/
 **Commands**:
 ```bash
 # Build image
-docker build -t warlockee/redshift-agent -f docker/Dockerfile .
+docker build -t redshift-nl-agent:latest -f docker/Dockerfile .
 
 # Run with docker-compose
 cd docker && docker-compose up
@@ -266,7 +266,7 @@ redshift-agent
 ### Docker
 ```bash
 # Build
-docker build -t warlockee/redshift-agent -f docker/Dockerfile .
+docker build -t redshift-nl-agent:latest -f docker/Dockerfile .
 
 # Run
 docker run -it --env-file .env redshift-nl-agent:latest

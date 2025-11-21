@@ -51,7 +51,7 @@ Successfully reorganized the Redshift Natural Language Agent into a production-r
 - `redshift_agent_cli.py` (lines 190-207)
 - `redshift_cli.py` (lines 56-68)
 
-**Security Warning**: Exposed Gemini API key `AIzaSyAu70IDfRjglbXUTcCmGPm8dx9R3I0YXP4` documented in README
+**Security Warning**: Exposed Gemini API key `AIzaSy...` documented in README
 
 ---
 
@@ -363,8 +363,8 @@ The Redshift Natural Language Agent has been successfully reorganized into a pro
    - Fix: Replaced all hardcoded values with `os.getenv()` calls
 
 2. **Exposed API Keys** (2 keys)
-   - AIzaSyAu70IDfRjglbXUTcCmGPm8dx9R3I0YXP4
-   - AIzaSyBpjzKG2kBvU8BL5rY3UvQMmOGFjjxXTQ4
+   - AIzaSy...
+   - AIzaSy...
    - Fix: Added comprehensive security warning to config/.env.template
 
 3. **Duplicate Files in Root** (12 files)

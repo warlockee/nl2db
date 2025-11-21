@@ -180,7 +180,7 @@ pytest -m validation               # Validation tests only
 
 **IMPORTANT**:
 - Never commit `.env` files
-- The Gemini API key `AIzaSyAu70IDfRjglbXUTcCmGPm8dx9R3I0YXP4` was previously exposed in the codebase
+- The Gemini API key `AIzaSy...` was previously exposed in the codebase
 - If this is your key, **REVOKE IT IMMEDIATELY** via Google Cloud Console
 - Generate a new key and store it in `.env`
 - SQL validation prevents INSERT, UPDATE, DELETE, DROP operations

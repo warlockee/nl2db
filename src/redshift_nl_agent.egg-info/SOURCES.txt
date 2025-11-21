@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/redshift_nl_agent/__init__.py
+src/redshift_nl_agent/__main__.py
+src/redshift_nl_agent/agent.py
+src/redshift_nl_agent/cli.py
+src/redshift_nl_agent/database.py
+src/redshift_nl_agent/schema.py
+src/redshift_nl_agent.egg-info/PKG-INFO
+src/redshift_nl_agent.egg-info/SOURCES.txt
+src/redshift_nl_agent.egg-info/dependency_links.txt
+src/redshift_nl_agent.egg-info/entry_points.txt
+src/redshift_nl_agent.egg-info/not-zip-safe
+src/redshift_nl_agent.egg-info/requires.txt
+src/redshift_nl_agent.egg-info/top_level.txt

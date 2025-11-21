@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  redshift-agent:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: warlockee/redshift-agent
+    container_name: redshift-nl-agent
+    env_file:
+      - ../.env
+    stdin_open: true
+    tty: true
+    volumes:
+      # Mount source for development (hot reload)
+      - ../src:/app/src
+    networks:
+      - redshift-net
+    restart: unless-stopped
+
+networks:
+  redshift-net:
+    driver: bridge

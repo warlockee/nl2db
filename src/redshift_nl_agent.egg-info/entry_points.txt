@@ -1,0 +1,2 @@
+[console_scripts]
+redshift-agent = redshift_nl_agent.cli:main
